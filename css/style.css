@@ -1,8 +1,48 @@
 * {
     font-family: Arial, sans-serif;
+    margin: 90px;
+    background-color: rgb(129, 115, 106);
   }
   
   table,th,td {
-    border: solid black 1px;
-    border-collapse: collapse;
+    border: solid rgb(14, 5, 2) 1px;
+  }
+h1{
+    color: rgb(49, 49, 107); 
+    width: 100%;
+    margin-top: -160px;
+     font-family: cursive;
+  }
+  body{
+   
+    background-repeat:no-repeat;
+    text-align: center;
+  }
+  div#parent{
+    margin-top: 90px;
+    margin-right: -61px;
+    margin-left: 211px;
+  }
+  footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(90 90 83 / 32%);
+    color: white;
+    text-align: center;
+    height: 62px;
+    margin: 6px;
+  }
+ h2{
+  margin: 3px;
+  display: table;
+  background-color: silver;
+ }
+  li{
+    margin: 6px;
+    padding: 0px;
+    display: table;
+    color: rgb(32, 54, 93);
+  font-weight: bold;
   }
