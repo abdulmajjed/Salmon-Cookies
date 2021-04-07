@@ -1,3 +1,4 @@
+/* eslint-disable no-redeclare */
 'use strict';
 //Global Variables//
 let parentDiv = document.getElementById('parent');
@@ -106,8 +107,31 @@ function total(arr) {
   }
   return sum;
 }
+//Lab 09 - adding column//
+let container=document.getElementById('container');
+container.addEventListener('submit',submitter);
 
+// submitter fun
+function submitter(event){
+  event.preventDefault();
+  let compName= event.target.compName.value;
+  let minCustomers= event.target.minCustomers.value;
+  let maxCustomers= event.target.maxCustomers.value;
+  let avgCookieSale= event.target.avgCookieSale.value;
+  // let cookiesPerHours= event.target.cookiesPerHours.value;
 
+  //new instance of object
+  let addedstore=new Store(compName,minCustomers,maxCustomers,avgCookieSale);
+  tableElement.textContent='';
+  //Calling Fun//
+  renderHeader();
+  for (let i = 0; i < shopesArr.length; i++) {
+    shopesArr[i].render();
+  }
+  renderFooter(totalCulomn);
+  parentDiv.appendChild(tableElement);
+
+}
 
 
 //Calling Fun//
