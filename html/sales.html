@@ -2,20 +2,32 @@
 <html lang="en">
 <head> 
     <h1>
-        Pat's Salmo Cookies: Sales Data
+        Pat's Salmon Cookies: Sales Data
     </h1>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pat's Salmo Cookies: Sales Cookies</title>
+    <title>Pat's Salmon Cookies: Sales Cookies</title>
    <link rel="stylesheet" href="../css/style.css">
-    
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 </head>
+
 <body>
+  
     <main>
-<form action="" id="container">
+      
+        <!-- <div class="w3-bar w3-black">
+            <button class="w3-bar-item w3-button" onclick="openCity('Seattle')">Seattle</button>
+            <button class="w3-bar-item w3-button" onclick="openCity('Tokyo')">Tokyo</button>
+            <button class="w3-bar-item w3-button" onclick="openCity('Dubai')">Dubai</button>
+            <button class="w3-bar-item w3-button" onclick="openCity('Paris')">Paris</button>
+            <button class="w3-bar-item w3-button" onclick="openCity('Lima')">Lima</button>
+          </div> -->
+          <form action="" id="container">
+  <div id="parent"></div> 
     <fieldset>
-        <!-- check type of number -->
         <label for="compName">City-Name</label>
         <input type="text" id="compName" name="compName" placeholder="Please Enter City Name">
         <br>
@@ -32,44 +44,55 @@
         <input type="float" name="avgCookieSale" id="avgCookieSale" placeholder="Split by commas, like this ,">
         <br>
         <br>
-     
         <input type="submit">
-
    </fieldset>
-   <div id="parent"></div> 
-</form>
-    </main>
+ </form>
+    </main> 
+    <div id="seattle" >
    <h2> Seattle</h2>
+   
    <li>1.locations with addresses: Unitad State.</li>
    <li>2.hours open: 7am - 6pm.</li>
    <li>3.contact information: +999 99 9999 9999</li>
    <li>4.COVID-19: make Sure you have mask.</li>
-  <li><a href="#" sales.html>Ouer Sales Data</a></li> 
+  <!-- <li><a href="#" sales.html>Ouer Sales Data</a></li>  -->
+    
+
+   </div>
+ 
+<div id="tokyo" >
    <h2>Tokyo</h2>
    <li>1.locations with addresses: Japan.</li>
    <li>2.hours open: 7am - 6pm.</li>
    <li>3.contact information: +666 99 6669 6669</li>
    <li>4.COVID-19: make Sure you have mask.</li>
-  <li><a href="#" sales.html>Ouer Sales Data</a></li> 
-   <h2>Dubai</h2>
+  <!-- <li><a href="#" sales.html>Ouer Sales Data</a></li>  -->
+  </div>
+   <div id="dubai" >
+  <h2 >Dubai</h2>
    <li>1.locations with addresses: Unitad Emirate State.</li>
    <li>2.hours open: 7am - 6pm.</li>
    <li>3.contact information: +333 99 3339 3339</li>
    <li>4.COVID-19: make Sure you have mask.</li>
-  <li><a href="#" sales.html>Ouer Sales Data</a></li> 
-   <h2>Paris</h2>
+  <!-- <li><a href="#" sales.html>Ouer Sales Data</a></li>  -->
+   </div>
+   <div id="paris" >
+  <h2 >Paris</h2>
    <li>1.locations with addresses: France.</li>
    <li>2.hours open: 7am - 6pm.</li>
    <li>3.contact information: +777 99 7779 7779</li>
    <li>4.COVID-19: make Sure you have mask.</li>
-  <li><a href="#" sales.html>Ouer Sales Data</a></li> 
-   <h2>Lima</h2>
+  <!-- <li><a href="#" sales.html>Ouer Sales Data</a></li>  -->
+   </div>
+   <div id="lima" >
+  <h2 >Lima</h2>
    <li>1.locations with addresses: Peru.</li>
    <li>2.hours open: 7am - 6pm.</li>
    <li>3.contact information: +888 99 8889 8889</li>
    <li>4.COVID-19: make Sure you have mask.</li>
-  <li><a href="#" sales.html>Ouer Sales Data</a></li> 
-  <img src="https://codefellows.github.io/code-201-guide/curriculum/class-06/lab/assets/salmon.png" alt="salmon Cookies">
+   <!-- <li><a href="#" sales.html>Ouer Sales Data</a></li>  -->
+ </div>
+   <img src="https://codefellows.github.io/code-201-guide/curriculum/class-06/lab/assets/salmon.png" alt="salmon Cookies">
 
  </body>
 

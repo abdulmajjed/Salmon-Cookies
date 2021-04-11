@@ -7,29 +7,38 @@
 table{
   color: rgba(243, 229, 229, 0.76);
 }
-table,th,td {
+table, th, td {
   border: solid rgba(70, 23, 0, 0.596) 1px;
+  font-family: cursive;
 }
 body main form {
   color: rgb(231, 230, 230);
 }
 body main form fieldset{
-  margin: 27px;
-  width: 121%; 
+  margin: -79px;
+  width: 33%;
+  background-color: transparent;
+  position: relative;
+  left: -19%;
+  bottom: 156px;
 }
 body main form fieldset input{
   margin: 0px;
   color: rgb(31, 11, 98);
   background-color: lightgrey;
 }
-
+input:hover{
+  background-color: rgb(74, 75, 73);
+  
+}
 
 
 h1{
-  color: rgb(49, 49, 107); 
+  color:rgb(1 1 58);
   width: 100%;
   margin-top: -160px;
-     font-family: cursive;
+  background-color: lightgray;
+  font-family: 'Dancing Script', cursive;
   }
   body{
    
@@ -37,9 +46,11 @@ h1{
     text-align: center;
   }
   div#parent{
-    margin-top: 90px;
-    margin-right: -61px;
-    margin-left: 211px;
+    margin-top: 84px;
+    margin-right: -143px;
+    margin-left: 248px;
+    position: relative;
+    top: 104px;
   }
   footer{
     position: fixed;
@@ -52,15 +63,55 @@ h1{
     height: 62px;
     margin: 6px;
   }
+  label{
+    font-family: cursive;
+    display: table-row-group;
+  }
  h2{
-  margin: 3px;
-  display: table;
+  margin: 0px;
   background-color: silver;
+  width: 149px;
+  height: 28px;
+  transition-property: width;
+  transition-duration: 1s;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bolder;
  }
-  li{
+ h2:hover{
+    width: 300px;
+    background-color: dimgrey;
+
+ }
+li{
     margin: 6px;
     padding: 0px;
     display: table;
-    color: rgb(32, 54, 93);
-  font-weight: bold;
+    color: rgb(243 229 229 / 76%);
+    font-family: Arial;
   }
+
+
+#tokyo{
+  position: relative;
+  left: 22%;
+  top: -214px;
+}
+#dubai{
+  position: relative;
+  left: 45%;
+  top: -428px;
+}
+#paris{
+  position: relative;
+  left: 72%;
+  top: -642px;
+}
+#lima{
+  position: relative;
+  left: 96%;
+  top: -859px;
+}
+img{
+  position: relative;
+  bottom: 1023px;
+}
